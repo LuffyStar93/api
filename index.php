@@ -1,5 +1,5 @@
 <?php
-$con = new MongoDB\Driver\Manager("mongodb+srv://Max:azertyuiop@nsk-jirog.gcp.mongodb.net/test?retryWrites=true");
+$con = new MongoClient("mongodb+srv://Max:azertyuiop@nsk-jirog.gcp.mongodb.net/test?retryWrites=true");
 $filter = [];
 $option = [];
 $read = new MongoDB\Driver\Query($filter, $option);
